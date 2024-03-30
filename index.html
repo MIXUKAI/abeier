@@ -1,11 +1,957 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABEIER Offical Website</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
 </head>
+
 <body>
-    <h1>Here is abeier official website</h1>
+
+
+  <div class="overlay" data-overlay></div>
+
+
+
+
+
+  <!--
+    - HEADER
+  -->
+
+  <header>
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+          <li class="menu-category">
+            <img src="./assets/images/logo/abeier.png" alt="abeier's logo" style="height: 50px">
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Home</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#Acrylic Paint" class="menu-title">ACRYLIC PAINT</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#Gouache Paint" class="menu-title">GOUACHE PAINT</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#Paint Marker Pens" class="menu-title">PAINT MARKER PENS</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#Kids Paint kit" class="menu-title">KIDS PAINT KIT</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+
+
+
+  <!--
+    - MAIN
+  -->
+
+  <main>
+
+    <!--
+      - BANNER
+    -->
+
+    <div class="banner">
+
+      <div class="container">
+
+        <div class="slider-container has-scrollbar">
+
+          <div class="slider-item">
+            <img src="./assets/images/20240330140244.jpg" alt="abeier store" class="banner-img">
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - PRODUCT
+    -->
+
+    <div class="product-container">
+
+      <div class="container">
+
+
+        <!--
+          - SIDEBAR
+        -->
+
+        <div class="sidebar  has-scrollbar" data-mobile-menu>
+          <img src="./assets/images/abeier.jpg">
+          <p style="margin-top: 10px;">
+            ABEIER Is Your Source for Quality and Affordable Art Supplies.
+          </p>
+          <p style="margin-top: 10px;">
+            We cater to artists of all ages and skill levels. Whether you're a seasoned artist or just starting your
+            creative journey, our products cater to your needs.
+          </p>
+          <p style="margin-top: 10px;">
+            We're dedicated to progress and excellence. By actively seeking product feedback and valuing customer input,
+            we're constantly enhancing our offerings, aiming to fuel your imagination and ignite your creative passion.
+          </p>
+
+          <!-- <div class="sidebar-category">
+
+            <div class="sidebar-top">
+              <h2 class="sidebar-title">Category</h2>
+
+              <button class="sidebar-close-btn" data-mobile-menu-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+
+            <ul class="sidebar-menu-category-list">
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/dress.svg" alt="clothes" width="20" height="20"
+                      class="menu-title-img">
+
+                    <p class="menu-title">Clothes</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Shirt</p>
+                      <data value="300" class="stock" title="Available Stock">300</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">shorts & jeans</p>
+                      <data value="60" class="stock" title="Available Stock">60</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">jacket</p>
+                      <data value="50" class="stock" title="Available Stock">50</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">dress & frock</p>
+                      <data value="87" class="stock" title="Available Stock">87</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/shoes.svg" alt="footwear" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Footwear</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Sports</p>
+                      <data value="45" class="stock" title="Available Stock">45</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Formal</p>
+                      <data value="75" class="stock" title="Available Stock">75</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Casual</p>
+                      <data value="35" class="stock" title="Available Stock">35</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Safety Shoes</p>
+                      <data value="26" class="stock" title="Available Stock">26</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/jewelry.svg" alt="clothes" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Jewelry</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Earrings</p>
+                      <data value="46" class="stock" title="Available Stock">46</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Couple Rings</p>
+                      <data value="73" class="stock" title="Available Stock">73</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Necklace</p>
+                      <data value="61" class="stock" title="Available Stock">61</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/perfume.svg" alt="perfume" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Perfume</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Clothes Perfume</p>
+                      <data value="12" class="stock" title="Available Stock">12 pcs</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Deodorant</p>
+                      <data value="60" class="stock" title="Available Stock">60 pcs</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">jacket</p>
+                      <data value="50" class="stock" title="Available Stock">50 pcs</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">dress & frock</p>
+                      <data value="87" class="stock" title="Available Stock">87 pcs</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/cosmetics.svg" alt="cosmetics" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Cosmetics</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Shampoo</p>
+                      <data value="68" class="stock" title="Available Stock">68</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Sunscreen</p>
+                      <data value="46" class="stock" title="Available Stock">46</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Body Wash</p>
+                      <data value="79" class="stock" title="Available Stock">79</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Makeup Kit</p>
+                      <data value="23" class="stock" title="Available Stock">23</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/glasses.svg" alt="glasses" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Glasses</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Sunglasses</p>
+                      <data value="50" class="stock" title="Available Stock">50</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Lenses</p>
+                      <data value="48" class="stock" title="Available Stock">48</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/bag.svg" alt="bags" class="menu-title-img" width="20" height="20">
+
+                    <p class="menu-title">Bags</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Shopping Bag</p>
+                      <data value="62" class="stock" title="Available Stock">62</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Gym Backpack</p>
+                      <data value="35" class="stock" title="Available Stock">35</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Purse</p>
+                      <data value="80" class="stock" title="Available Stock">80</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Wallet</p>
+                      <data value="75" class="stock" title="Available Stock">75</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="product-showcase">
+
+            <h3 class="showcase-heading">best sellers</h3>
+
+            <div class="showcase-wrapper">
+
+              <div class="showcase-container">
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/1.jpg" alt="baby fabric shoes" width="75" height="75"
+                      class="showcase-img">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">baby fabric shoes</h4>
+                    </a>
+
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      <del>$5.00</del>
+                      <p class="price">$4.00</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/2.jpg" alt="men's hoodies t-shirt" class="showcase-img"
+                      width="75" height="75">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">men's hoodies t-shirt</h4>
+                    </a>
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      <del>$17.00</del>
+                      <p class="price">$7.00</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/3.jpg" alt="girls t-shirt" class="showcase-img" width="75"
+                      height="75">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">girls t-shirt</h4>
+                    </a>
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      <del>$5.00</del>
+                      <p class="price">$3.00</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/4.jpg" alt="woolen hat for men" class="showcase-img" width="75"
+                      height="75">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">woolen hat for men</h4>
+                    </a>
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      <del>$15.00</del>
+                      <p class="price">$12.00</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div> -->
+          <ul>
+
+            <li class="footer-nav-item">
+              <h2 class="nav-title">Contact</h2>
+            </li>
+
+            <li class="footer-nav-item flex">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <address class="content">
+                No. 113 Hubin Road, Guanhaiwei Town, Cixi City,
+                Zhejiang Province, 315316 CN
+              </address>
+            </li>
+            <!-- 
+            <li class="footer-nav-item flex">
+              <div class="icon-box">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+  
+              <a href="tel:+607936-8058" class="footer-nav-link">(607) 936-8058</a>
+            </li> -->
+
+            <li class="footer-nav-item flex">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <a class="footer-nav-link">fangyuamazonuk@163.com</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+
+        <div class="product-box">
+
+          <!--
+            - PRODUCT GRID
+          -->
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </main>
+
+
+
+
+
+  <!--
+    - FOOTER
+  -->
+
+  <footer>
+    <div class="footer-nav">
+
+      <div class="container">
+        <!-- 
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Our Company</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Delivery</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Legal Notice</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Terms and conditions</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">About us</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Secure payment</a>
+          </li>
+
+        </ul> -->
+
+        <!-- <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Services</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Prices drop</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">New products</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Best sales</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Sitemap</a>
+          </li>
+
+        </ul> -->
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="content">
+              No. 113 Hubin Road, Guanhaiwei Town, Cixi City,
+              Zhejiang Province, 315316 CN
+            </address>
+          </li>
+          <!-- 
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+607936-8058" class="footer-nav-link">(607) 936-8058</a>
+          </li> -->
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a class="footer-nav-link">fangyuamazonuk@163.com</a>
+          </li>
+
+        </ul>
+
+
+      </div>
+
+    </div>
+
+
+  </footer>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+      // 你的对象数组，每个对象包含imageurl和title属性
+      var products = [{
+        type: 'Acrylic Paint',
+        data: [
+          { imageurl: 'https://m.media-amazon.com/images/I/71JA42PczFL._AC_CR0%2C0%2C0%2C0_SX704_SY660_.jpg', title: 'ABEIER Iridescent Acrylic Paint, Set of 18 Chameleon Colors, 2 oz/60ml Bottles, Color-shifting, Non-Toxic, High Viscosity, Blendable, Paints on Rocks Crafts Canvas Wood, Fabric, Ceramic & Stone', asin: 'B09133GRBN' },
+          { imageurl: 'https://m.media-amazon.com/images/I/71Avc+KcSoL._AC_CR0%2C0%2C0%2C0_SX198_SY186_.jpg', title: 'ABEIER Metallic Acrylic Paint, Set of 24 Metallic Colors in 2oz/60ml Bottle, Rich Pigments, Non Fading, Non Toxic Paints for Artist, Beginners & Kids Painting on Rocks Crafts Canvas Wood, Fabric&Stone', asin: 'B08DQYBYC5' },
+          { imageurl: 'https://m.media-amazon.com/images/I/71IvkZw8J-L._AC_CR0%2C0%2C0%2C0_SX451_SY423_.jpg', title: 'ABEIER Metallic Acrylic Pouring Paint Set - Set of 18 Metallic Colors - Pre-Mixed High Flow & Ready to Pour - 2 oz./ 59 ml Bottles - Multi-purpose Paints for Canvas & Paper, Rocks, Wood and More', asin: 'B094Z1T8VS' },
+          { imageurl: 'https://m.media-amazon.com/images/I/717G23TojIL._AC_CR0%2C0%2C0%2C0_SX704_SY660_.jpg', title: 'ABEIER Acrylic Paint Set, 24 Colors (60ml/2oz) with 12Paint Brushes, Non-Toxic, Waterproof, Strong Coverage for Kids Adults Beginners Students, Painting on Canvas Stone Wood Fabric Rocks Ceramic', asin: 'B0BWMMLZDS' },
+          { imageurl: 'https://m.media-amazon.com/images/I/71hCy2tebTL._AC_CR0%2C0%2C0%2C0_SX704_SY660_.jpg', title: 'ABEIER Glow in the Dark Acrylic Paint, 10 Bright Colors (60ml/2oz) blacklight Paint, Neon Craft Paint, Long Lasting Glow Fluorescent Paint Ideal for DIY Projects Halloween Easter Christmas Decorations', asin: 'B0BTHDZP6K' },
+          { imageurl: 'https://m.media-amazon.com/images/I/71OBPoGqTbL._AC_CR0%2C0%2C0%2C0_SX704_SY660_.jpg', title: 'ABEIER Acrylic Paint Set, 56 Colors (2oz/60ml), Matte Finish, Waterproof, Rich Pigments, Non-Toxic Paints for Painting on Canvas Crafts Wood Ceramic, Fabric Ideal for Beginners and Artists', asin: 'B0CH9H85PV' },
+          { imageurl: 'https://m.media-amazon.com/images/I/71idfZlsawL._AC_CR0%2C0%2C0%2C0_SX704_SY660_.jpg', title: 'ABEIER Large Bulk Acrylic Paint Set, 15 Colors (473 ml/16 fl oz), Matte Finish, Rich Pigments, Non-Toxic Paints for Painting on Canvas Crafts Wood Ceramic, Ideal for Beginners and Students', asin: 'B0C6LKJP5K' },
+          { imageurl: 'https://m.media-amazon.com/images/I/718n8Jcv7gL._AC_CR0%2C0%2C0%2C0_SX704_SY660_.jpg', title: 'ABEIER Acrylic Pouring Paint, 2oz Bottles, Set of 24 Assorted Colors and Silicone Oil(1oz), Pre-Mixed, High Flow, Paint for Pouring on Canvas, Glass, Paper, Wood, Tile, Stones and More', asin: 'B087T6MLMF' },
+          { imageurl: 'https://m.media-amazon.com/images/I/71rzMHAOzVL._AC_SX679_.jpg', title: 'ABEIER Glow in the Dark Paint, 12 Colors (30ml1/oz) Blacklight Acrylic Paint, Neon Craft Paint, Long Lasting Glow Fluorescent Paint Ideal for DIY Projects Halloween Easter Christmas Decorations', asin: 'B0CCHVDXMF' },
+          // 水粉
+        ]
+      }, {
+        type: 'Gouache Paint',
+        data: [
+          { imageurl: 'https://m.media-amazon.com/images/I/7181-BLxaKL._AC_CR0%2C0%2C0%2C0_SX198_SY186_.jpg', title: 'HIMI Gouache Paint Set, Twin Cup 48 Colors x 12ml/0.4oz with 3 Brushes & a Palette, Non-Toxic, Jelly Guache Paint for Canvas and Watercolor Paper - Perfect for Beginners, Students, Artists', asin: 'B0CJF5LCDK' },
+          { imageurl: 'https://m.media-amazon.com/images/I/71gceoGzAxL._AC_CR0%2C0%2C0%2C0_SX704_SY660_.jpg', title: 'HIMI Gouache Paint Set, 56 Colors x 30ml/1oz, Contains Metallic and Fluorescent Colors, Jelly Cup Design, Non-Toxic, Guache Paint for Canvas and Watercolor Paper - Perfect for Beginners, Students', asin: 'B0CJFBYMKK' },
+          { imageurl: 'https://m.media-amazon.com/images/I/71cpM2Y2XwL._AC_CR0%2C0%2C0%2C0_SX451_SY423_.jpg', title: 'HIMI Pastel Gouache Paint Set, 18 Pastel Colors x 30ml/1oz with 3 Brushes & a Palette, Non-Toxic, Jelly Guache Paint for Canvas and Watercolor Paper - Perfect for Beginners, Students, Artists', asin: 'B0CJF9RYWT' },
+          { imageurl: 'https://m.media-amazon.com/images/I/61HK5xqmYWL._AC_CR0%2C0%2C0%2C0_SX410_SY308_.jpg', title: 'HIMI Gouache Paint Set, 24 Colors x 30ml/1oz with Brushes & Palette, Jelly Cup Design, Non-Toxic, Perfect for Beginners, Students, Artists(Green)', asin: 'B086X11M6B' },
+          { imageurl: 'https://m.media-amazon.com/images/I/61QYLPuImPL._AC_CR0%2C0%2C0%2C0_SX451_SY423_.jpg', title: 'HIMI Gouache Paint Set, 24 Colors x 30ml/1oz with 3 Brushes & a Palette, Unique Jelly Cup Design, Non-Toxic, Guache Paint for Canvas Watercolor Paper - Perfect for Beginners, Students, Artists(Pink)', asin: 'B086X2STSD' },
+          { imageurl: 'https://m.media-amazon.com/images/I/61uWqV7J0AL._AC_SX679_.jpg', title: 'HIMI Gouache Paint Set, 24 Colors x 30ml/1oz with 3 Brushes & a Palette, Unique Jelly Cup Design, Non-Toxic, Guache Paint for Canvas Watercolor Paper - Perfect for Beginners, Students, Artists(Orange)', asin: 'B086X1HWQS' },
+          { imageurl: 'https://m.media-amazon.com/images/I/610YNzFz8NL._AC_CR0%2C0%2C0%2C0_SX704_SY660_.jpg', title: 'HIMI Gouache Paint Set, 18 Colors x 30ml with a Palette & a Carrying Case, Unique Jelly Cup Design, Miya Guache Paint on Canvas Watercolor Paper - Perfect for Beginners, Students, Artists(Green Case)', asin: 'B086TRRD7V' },
+          { imageurl: 'https://m.media-amazon.com/images/I/618oWiNoaXL._AC_SX679_.jpg', title: 'HIMI Gouache Paint Set, 18 Colors x 30ml with a Palette & a Carrying Case, Unique Jelly Cup Design, Miya Guache Paint on Canvas Watercolor Paper - Perfect for Beginners, Students, Artists(Yellow Case)', asin: 'B086TQT1XS' },
+          { imageurl: 'https://m.media-amazon.com/images/I/71rFmrECqgL._AC_CR0%2C0%2C0%2C0_SX451_SY423_.jpg', title: 'HIMI Gouache Paint Set, 50 colors(14 Colors x 60ml + 36 Colors x 30ml) with a Portable Carrying Case, Jelly Cup Design, Miya Gouache Paint for Canvas Watercolor Paper - Perfect for Beginners, Artists', asin: 'B093BK99CS' },
+        ]
+      }, {
+        type: 'Kids Paint kit',
+        data: [
+          { imageurl: 'https://m.media-amazon.com/images/I/71uGDWt8LAL._AC_CR0%2C0%2C0%2C0_SX615_SY462_.jpg', title: 'ABEIER Washable Finger Paint for Toddlers, Safe Non-Toxic, 12 Vibrant Colors (1.21fl oz), Baby Safe Paint for Hand and Feet, Mess Free Art Supplies for Kids, Preschool Learning Gifts, Ages 1-3 4 5 6+', asin: 'B0C1YTH9WK' },
+          { imageurl: 'https://m.media-amazon.com/images/I/71orxdkaOLL._AC_SX679_.jpg', title: 'ABEIER Washable Finger Paint Kit for Toddlers, 12 Colors (1.21 oz) with Paint Tools, Safe Non-Toxic, Baby Safe Paint for Hand and Feet, Mess Free Art Supplies for Kids, DIY Crafts, Kids Gifts, Ages 3+', asin: 'B0C9HL5BGQ' },
+        ]
+      }, {
+        type: 'Paint Marker Pens',
+        data: [
+          { imageurl: 'https://m.media-amazon.com/images/I/71ezxiNaIdL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg', title: 'ABEIER 80 Colors Alcohol Based Markers, Dual Tip Drawing Markers Set, plus 1 Colorless Blender Pen, Permanent Sketch Animation Markers for Kids, Plumones, Adults Coloring and Artist Illustration', asin: 'B089K7J13C' },
+          { imageurl: 'https://m.media-amazon.com/images/I/81Q5R3FKCzL._AC_CR0%2C0%2C0%2C0_SX410_SY308_.jpg', title: 'ABIEER Glitter Paint Marker Pens, Water-Based Acrylic Ink Markers, 12 Glitter Metallic Colors, Fine Point Tip, Sparkle Paint for Greeting Card, Wood, Fabric, Rock Painting, Scrapbooking, Albums', asin: 'B0B38CT1ML' },
+          { imageurl: 'https://m.media-amazon.com/images/I/81CDnmEPoSL._AC_SX679_.jpg', title: 'ABEIER Glitter Markers Pens, 12 Colors Sparkle Acrylic Metallic Paint Pens, Fine Point Tip, Water-based Ink for Rock Painting, Stone, Mugs, Ceramic, Glass, Wood, Card, Canvas, DIY Crafts, Art Supplies', asin: 'B0BYS2JTM4' },
+          { imageurl: 'https://m.media-amazon.com/images/I/81niGVOdU3L._AC_SX679_.jpg', title: 'ABEIER Dual Brush Tip Marker Pens, 100 Vibrant Colors, Water-Based, Non-Toxic Art Supplies for Kids Adults, Perfect for journaling, Drawing, Sketching, and Illustration in Coloring Books', asin: 'B0CJTJS8J1' },
+          { imageurl: 'https://m.media-amazon.com/images/I/81FmohmQulL._AC_SX679_.jpg', title: 'ABEIER Dual Brush Tip Marker Pens, 120 Vibrant Colors, Water-Based, Non-Toxic Art Supplies for Kids Adults, Perfect for journaling, Drawing, Sketching, and Illustration in Coloring Books', asin: 'B0CJTKG14D' },
+        ]
+      }
+
+      ];
+
+      var productBox = document.querySelector('.product-box')
+
+      products.forEach(function (section) {
+        var productMain = document.createElement('div')
+        productMain.classList.add('product-main')
+
+        var title = document.createElement('h2')
+        title.setAttribute('id', section.type)
+        title.classList.add('title')
+        var textNode = document.createTextNode(section.type);
+        title.appendChild(textNode)
+        productMain.appendChild(title)
+        var productGrid = document.createElement('div')
+        productGrid.classList.add('product-grid')
+
+        section.data.forEach(function (product) {
+          // 获取classname为product-grid的div元素
+
+
+          // var productGrid = document.querySelector('.product-grid');
+
+          // 遍历产品数组
+          // 创建展示产品的div元素
+          var showcaseDiv = document.createElement('div');
+          showcaseDiv.classList.add('showcase');
+
+          // 创建展示产品图片的div元素
+          var bannerDiv = document.createElement('div');
+          bannerDiv.classList.add('showcase-banner');
+
+          // 创建展示产品图片的img元素
+          var img = document.createElement('img');
+          img.src = product.imageurl;
+          img.alt = product.title;
+          img.width = 300;
+          img.classList.add('product-img', 'default');
+
+          // 将img元素添加到bannerDiv中
+          bannerDiv.appendChild(img);
+
+          // 创建展示产品信息的div元素
+          var contentDiv = document.createElement('div');
+          contentDiv.classList.add('showcase-content');
+
+          // 创建展示产品标题的a元素
+          var titleLink = document.createElement('a');
+          titleLink.href = `https://www.amazon.com/dp/${product.asin}`;
+
+          // 创建展示产品标题的h3元素
+          var titleH3 = document.createElement('h3');
+          titleH3.classList.add('showcase-title');
+          titleH3.textContent = product.title;
+
+          // 将titleH3元素添加到titleLink中
+          titleLink.appendChild(titleH3);
+
+          // 将titleLink元素添加到contentDiv中
+          contentDiv.appendChild(titleLink);
+
+          // 创建展示产品链接的div元素
+          var linkDiv = document.createElement('div');
+          linkDiv.classList.add('view-on-amazon')
+
+          // 创建展示产品链接的img元素
+          var amazonIconImg = document.createElement('img');
+          amazonIconImg.src = './assets/images/icons/Amazon-icon-in-flat-design-on-transparent-background-PNG.png';
+          amazonIconImg.width = 30;
+
+          // 创建展示产品链接的span元素
+          var viewOnAmazonSpan = document.createElement('span');
+          viewOnAmazonSpan.style.fontSize = 'medium';
+          viewOnAmazonSpan.textContent = 'View on Amazon';
+
+          // 将amazonIconImg和viewOnAmazonSpan元素添加到linkDiv中
+          linkDiv.appendChild(amazonIconImg);
+          linkDiv.appendChild(viewOnAmazonSpan);
+
+          // 将bannerDiv和contentDiv元素添加到showcaseDiv中
+          showcaseDiv.appendChild(bannerDiv);
+          showcaseDiv.appendChild(contentDiv);
+          contentDiv.appendChild(linkDiv)
+
+          // 将showcaseDiv元素添加到productGrid中
+          productGrid.appendChild(showcaseDiv);
+        })
+        productMain.appendChild(productGrid)
+
+        productBox.appendChild(productMain)
+      })
+
+
+    });
+
+  </script>
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
+
 </html>
